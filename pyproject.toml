@@ -3,8 +3,8 @@ name = "slanggen"
 version = "0.4"
 description = "generate slang"
 authors = [
-    { name = "Raoul Grouls", email = "Raoul.Grouls@han.nl"
-    name = "Marcello Wienhoven", email = "M.Wienhoven@student.han.nl"}
+    { name = "Raoul Grouls", email = "Raoul.Grouls@han.nl"},
+    {name = "Marcello Wienhoven", email = "M.Wienhoven@student.han.nl"}
 ]
 dependencies = [
     "loguru>=0.7.2",
@@ -13,6 +13,7 @@ dependencies = [
     "torch>=2.0",
     "matplotlib>=3.9.2",
     "requests>=2.32.5",
+    "bs4>=0.0.2",
 ]
 readme = "README.md"
 requires-python = ">= 3.10"

@@ -1,0 +1,351 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": {
+    "strategy": "BatchLongest",
+    "direction": "Right",
+    "pad_to_multiple_of": null,
+    "pad_id": 0,
+    "pad_type_id": 0,
+    "pad_token": "<pad>"
+  },
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<pad>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "<s>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "</s>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "<unk>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 4,
+      "content": "<mask>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "ByteLevel",
+    "add_prefix_space": false,
+    "trim_offsets": true,
+    "use_regex": true
+  },
+  "post_processor": null,
+  "decoder": {
+    "type": "ByteLevel",
+    "add_prefix_space": true,
+    "trim_offsets": true,
+    "use_regex": true
+  },
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": "<unk>",
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<pad>": 0,
+      "<s>": 1,
+      "</s>": 2,
+      "<unk>": 3,
+      "<mask>": 4,
+      "!": 5,
+      "\"": 6,
+      "'": 7,
+      "-": 8,
+      ".": 9,
+      "/": 10,
+      "0": 11,
+      "1": 12,
+      "2": 13,
+      "3": 14,
+      "4": 15,
+      "7": 16,
+      "8": 17,
+      "9": 18,
+      "<": 19,
+      ">": 20,
+      "?": 21,
+      "a": 22,
+      "b": 23,
+      "c": 24,
+      "d": 25,
+      "e": 26,
+      "f": 27,
+      "g": 28,
+      "h": 29,
+      "i": 30,
+      "j": 31,
+      "k": 32,
+      "l": 33,
+      "m": 34,
+      "n": 35,
+      "o": 36,
+      "p": 37,
+      "r": 38,
+      "s": 39,
+      "t": 40,
+      "u": 41,
+      "v": 42,
+      "w": 43,
+      "z": 44,
+      "¡": 45,
+      "¤": 46,
+      "¨": 47,
+      "©": 48,
+      "ª": 49,
+      "«": 50,
+      "²": 51,
+      "³": 52,
+      "¶": 53,
+      "º": 54,
+      "¼": 55,
+      "Ã": 56,
+      "Ġ": 57,
+      "Ń": 58,
+      "</": 59,
+      "sj": 60,
+      "ie": 61,
+      "er": 62,
+      "el": 63,
+      "oe": 64,
+      "aa": 65,
+      "je": 66,
+      "ch": 67,
+      "ts": 68,
+      "ng": 69,
+      "Ã«": 70,
+      "le": 71,
+      "re": 72,
+      "an": 73,
+      "uu": 74,
+      "sje": 75,
+      "ke": 76,
+      "Ã³": 77,
+      "sjt": 78,
+      "in": 79,
+      "oa": 80,
+      "de": 81,
+      "ne": 82,
+      "te": 83,
+      "ele": 84,
+      "Ã©": 85,
+      "be": 86,
+      "ve": 87,
+      "kr": 88,
+      "me": 89,
+      "Ġd": 90,
+      "ieÃ«": 91,
+      "aaf": 92,
+      "se": 93,
+      "ver": 94,
+      "we": 95,
+      "Ã¼": 96,
+      "kl": 97,
+      "pe": 98,
+      "Ġm": 99
+    },
+    "merges": [
+      [
+        "<",
+        "/"
+      ],
+      [
+        "s",
+        "j"
+      ],
+      [
+        "i",
+        "e"
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "e",
+        "l"
+      ],
+      [
+        "o",
+        "e"
+      ],
+      [
+        "a",
+        "a"
+      ],
+      [
+        "j",
+        "e"
+      ],
+      [
+        "c",
+        "h"
+      ],
+      [
+        "t",
+        "s"
+      ],
+      [
+        "n",
+        "g"
+      ],
+      [
+        "Ã",
+        "«"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "r",
+        "e"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "u",
+        "u"
+      ],
+      [
+        "sj",
+        "e"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "Ã",
+        "³"
+      ],
+      [
+        "sj",
+        "t"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "o",
+        "a"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "n",
+        "e"
+      ],
+      [
+        "t",
+        "e"
+      ],
+      [
+        "el",
+        "e"
+      ],
+      [
+        "Ã",
+        "©"
+      ],
+      [
+        "b",
+        "e"
+      ],
+      [
+        "v",
+        "e"
+      ],
+      [
+        "k",
+        "r"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "Ġ",
+        "d"
+      ],
+      [
+        "ie",
+        "Ã«"
+      ],
+      [
+        "aa",
+        "f"
+      ],
+      [
+        "s",
+        "e"
+      ],
+      [
+        "v",
+        "er"
+      ],
+      [
+        "w",
+        "e"
+      ],
+      [
+        "Ã",
+        "¼"
+      ],
+      [
+        "k",
+        "l"
+      ],
+      [
+        "p",
+        "e"
+      ],
+      [
+        "Ġ",
+        "m"
+      ]
+    ]
+  }
+}
