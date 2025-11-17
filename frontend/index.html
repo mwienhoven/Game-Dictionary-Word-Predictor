@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Street Language Generator</title>
+    <link rel="stylesheet" href="static/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Street Language Generator</h1>
+      <div class="controls">
+        <label for="num_words">Number of words:</label>
+        <input
+          type="number"
+          id="num_words"
+          name="num_words"
+          value="10"
+          min="1"
+        />
+
+        <label for="temperature">Temperature:</label>
+        <input
+          type="range"
+          id="temperature"
+          name="temperature"
+          min="0.1"
+          max="2.0"
+          value="1.0"
+          step="0.1"
+          oninput="updateTempLabel(this.value)"
+        />
+        <span id="temp-value">1.0</span>
+
+        <button id="generate-btn">Generate Words</button>
+      </div>
+      <div class="words-container" id="words-container"></div>
+      <h2>Starred Words</h2>
+      <div class="starred-container" id="starred-container"></div>
+    </div>
+
+    <script>
+      let starredWords = [];
+
+      function updateTempLabel(value) {
+        document.getElementById("temp-value").textContent = value;
+      }
+
+      function updateStarredContainer() {
+        const starredContainer = document.getElementById("starred-container");
+        starredContainer.innerHTML = "";
+        starredWords.forEach((word) => {
+          const wordElement = document.createElement("div");
+          wordElement.className = "word-item starred";
+          wordElement.textContent = word;
+          starredContainer.appendChild(wordElement);
+        });
+      }
+
+      document
+        .getElementById("generate-btn")
+        .addEventListener("click", function () {
+          const numWords = document.getElementById("num_words").value;
+          const temperature = document.getElementById("temperature").value;
+          fetch(`/generate?num_words=${numWords}&temperature=${temperature}`)
+            .then((response) => response.json())
+            .then((data) => {
+              const wordsContainer = document.getElementById("words-container");
+              wordsContainer.innerHTML = "";
+              data.forEach((word) => {
+                const wordElement = document.createElement("div");
+                wordElement.className = "word-item";
+                wordElement.textContent = word;
+                wordElement.addEventListener("click", function () {
+                  wordElement.classList.toggle("starred");
+                  if (wordElement.classList.contains("starred")) {
+                    starredWords.push(word);
+                  } else {
+                    starredWords = starredWords.filter((w) => w !== word);
+                  }
+                  updateStarredContainer();
+                });
+                wordsContainer.appendChild(wordElement);
+              });
+            })
+            .catch((error) => console.error("Error:", error));
+        });
+    </script>
+  </body>
+</html>

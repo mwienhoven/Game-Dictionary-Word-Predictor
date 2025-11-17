@@ -1,0 +1,41 @@
+[project]
+name = "slanggen"
+version = "0.4"
+description = "generate slang"
+authors = [
+    { name = "Raoul Grouls", email = "Raoul.Grouls@han.nl"
+    name = "Marcello Wienhoven", email = "M.Wienhoven@student.han.nl"}
+]
+dependencies = [
+    "loguru>=0.7.2",
+    "numpy",
+    "tokenizers>=0.19.1",
+    "torch>=2.0",
+    "matplotlib>=3.9.2",
+    "requests>=2.32.5",
+]
+readme = "README.md"
+requires-python = ">= 3.10"
+
+[project.optional-dependencies]
+scrape = [
+    "beautifulsoup4>=4.12.3",
+]
+frontend = [
+    "fastapi[standard]>=0.115.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/slanggen"]
