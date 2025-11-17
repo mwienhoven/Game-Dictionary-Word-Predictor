@@ -1,5 +1,5 @@
 # Game-Dictionary-Word-Predictor
-Word predictor based on the games dictionary that can be found [here](https://www.gamewijzer.nl/gamewoordenboek/)
+Word predictor based on the games dictionary that can be found [here](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms)
 
 # Tutorial of Raoul: slanggen
 
