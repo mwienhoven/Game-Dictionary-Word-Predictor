@@ -48,7 +48,7 @@ Design science centers around creating an **artefact**. Off course, you could ar
 
 You can build the `src/slanggen` package into a wheel with `uv` very easily, you just run:
 ```bash
-uv build --clean
+uv build --clear
 ```
 ## What is a wheel and why use it?
 A Python wheel is a pre-built package format (ending in `.whl`) that contains your code and metadata in a ready-to-install format, like a zip file specifically designed for Python packages. Unlike source distributions that need to be compiled during installation, wheels are already built, making installation much faster and more reliable—especially important when you're deploying to Docker containers where you want quick, reproducible builds.
