@@ -2,7 +2,7 @@
 assets_dir = "assets"
 artefacts_dir = "artefacts"
 filename = "straattaal.txt"
-url = "https://www.mijnwoordenboek.nl/dialect/Kerkraads"
+url = "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms"
 
 [model]
 embedding_dim = 32

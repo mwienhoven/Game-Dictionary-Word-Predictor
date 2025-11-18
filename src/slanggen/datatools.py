@@ -11,7 +11,15 @@ from torch.nn.utils.rnn import pad_sequence
 def get_data(filename: Path, url: str) -> list[str]:
     logger.info(f"Getting data from {url}")
     # Send a GET request to the website
-    response = requests.get(url)
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        )
+    }
+    response = requests.get(url, headers=headers, timeout=10)
+    response.raise_for_status()
     # Parse the HTML content using BeautifulSoup
     soup = BeautifulSoup(response.content, "html.parser")
 
@@ -19,7 +27,18 @@ def get_data(filename: Path, url: str) -> list[str]:
     rows = soup.find_all("tr", style=True)
 
     # Extract the street language words from the second <td> element in each row
-    street_language_words = [row.find_all("td")[1].get_text(strip=True) for row in rows]
+    street_language_words: list[str] = []
+    if rows:
+        street_language_words = [row.find_all("td")[1].get_text(strip=True) for row in rows]
+    else:
+        # Fallback: some glossaries (e.g. Wikipedia) use definition lists with <dt> terms
+        dt_terms = []
+        for dt in soup.find_all("dt"):
+            term = dt.get_text(" ", strip=True)
+            # Filter: no empty, no footnotes starting with [, and not too long
+            if term and not term.startswith("[") and len(term) < 200:
+                dt_terms.append(term)
+        street_language_words = dt_terms
 
     # Process each word: remove text inside parentheses, remove "/g", split on commas and pipes
     logger.info(f"Processing {len(street_language_words)} street language words")
@@ -32,7 +51,7 @@ def get_data(filename: Path, url: str) -> list[str]:
         # Split on commas and pipes
         split_words = re.split(r",|\||/", word)
         # Strip and add each split word to the processed list
-        processed_words.extend([w.strip().lower() for w in split_words])
+        processed_words.extend([w.strip().lower() for w in split_words if w.strip()])
 
     # add start and end tokens to each word / sentence
     processed_words = ["<s>" + word + "</s>" for word in processed_words if word]
