@@ -14,25 +14,14 @@ resp.raise_for_status()
 
 soup = BeautifulSoup(resp.text, "html.parser")
 
-# Glossary is een <dl> met <dt> (term) en <dd> (definitie)
-entries = []
+terms = []
 
-for dl in soup.find_all("dl"):
-    dts = dl.find_all("dt")
-    dds = dl.find_all("dd")
+for dt in soup.find_all("dt"):
+    term = dt.get_text(" ", strip=True)
 
-    # skip als de aantallen niet matchen
-    if len(dts) != len(dds) or len(dts) == 0:
-        continue
-    
-    for dt, dd in zip(dts, dds):
-        term = dt.get_text(" ", strip=True)
-        definition = dd.get_text(" ", strip=True)
+    # Filter: geen lege dingen, geen footnotes, geen hele zinnen
+    if term and not term.startswith("[") and len(term) < 80:
+        terms.append(f"<s>{term}</s>")
 
-        # Bouw de <s>...</s> regel
-        sentence = f"{term}: {definition}"
-        entries.append(f"<s>{sentence}</s>")
-
-# Print de eerste 20 regels als voorbeeld
-for line in entries[:20]:
-    print(line)
+for t in terms:
+    print(t)
