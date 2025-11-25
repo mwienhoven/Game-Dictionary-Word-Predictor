@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y curl
 
 # Install uv
 ADD --chmod=755 https://astral.sh/uv/install.sh /install.sh
-RUN sh /install.sh && rm /install.sh
+RUN /install.sh && rm /install.sh
 
 # Make uv accessible
 ENV PATH="/root/.local/bin:${PATH}"
@@ -33,14 +33,15 @@ COPY backend ./backend
 COPY frontend ./frontend
 COPY artefacts ./artefacts
 
-# Install python dependencies without Torch (use pytorch index for torch exclusion)
-RUN uv sync --frozen --no-dev --no-editable
+# Install the project (slanggen) from pyproject.toml via uv pip (system install, no-cache)
+# Install backend requirements via uv pip (system install, no-cache)
+# Install Torch CPU via uv pip from the PyTorch index
+RUN /root/.local/bin/uv pip install --system --no-cache . \
+    && /root/.local/bin/uv pip install --system --no-cache -r backend/requirements.txt \
+    && /root/.local/bin/uv pip install --system --no-cache --index-url https://download.pytorch.org/whl/cpu torch==2.9.1
 
-# Install Torch from CPU PyTorch index (as specified in pyproject.toml)
-RUN uv pip install --index-url https://download.pytorch.org/whl/cpu torch
-
-# Install backend requirements
-RUN pip install --no-cache-dir -r backend/requirements.txt
+# Remove uv to reduce image size
+RUN rm -rf /root/.local/bin/uv /root/.local/lib/python3.11/site-packages/uv*
 
 # Expose port 8000 for the application
 EXPOSE 8000
