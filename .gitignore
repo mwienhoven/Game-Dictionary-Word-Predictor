@@ -1,4 +1,3 @@
 !**/.gitkeep
 **/logs
-Dockerfile
 Makefile
