@@ -1,6 +1,24 @@
 # Game-Dictionary-Word-Predictor
 Word predictor based on the games dictionary that can be found [here](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms)
 
+## Run the model locally
+First sync your virtual environment using the command below:
+```bash
+uv sync ---all-extras
+```
+
+The run the following command:
+```bash
+uv run src/slanggen/main.py
+```
+
+You can then open the application running the command:
+```bash
+uvicorn backend.app:app --reload
+```
+
+This will open up the port 8000 to open for you.
+
 # Tutorial of Raoul: slanggen
 
 ## train the model
