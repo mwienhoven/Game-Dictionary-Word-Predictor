@@ -1,4 +1,4 @@
-version: "1.0"
+version: "3.9"
 
 services:
   slanggen:
@@ -7,14 +7,12 @@ services:
       dockerfile: Dockerfile
     container_name: slanggen_app
     ports:
-      - "80:8000"  # Expose poort 8000 intern naar poort 80 extern
-    restart: always  # Start container automatisch bij VM reboot
+      - "80:8000"  
+    restart: always
     environment:
       PYTHONUNBUFFERED: "1"
-    volumes:
-      - ./:/app  # Optioneel, handig tijdens development
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]  # Pas aan naar jouw health endpoint
+      test: ["CMD", "curl", "-sSf", "http://localhost:8000/health"]
       interval: 10s
       timeout: 10s
       retries: 3

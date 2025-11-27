@@ -19,6 +19,14 @@ uvicorn backend.app:app --reload
 
 This will open up the port 8000 to open for you.
 
+## Accessing the application
+After turning on the VM UOS3-MWienhoven on SURF, you can access the VM via the following link:
+```bash
+http://145.38.188.207/
+```
+
+This will show the Game Word Predictor.
+
 # Tutorial of Raoul: slanggen
 
 ## train the model
