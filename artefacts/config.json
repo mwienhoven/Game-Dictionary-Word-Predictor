@@ -1,0 +1,22 @@
+{
+    "data": {
+        "assets_dir": "assets",
+        "artefacts_dir": "artefacts",
+        "filename": "straattaal.txt",
+        "url": "https://en.wikipedia.org/wiki/List_of_video_game_franchises"
+    },
+    "model": {
+        "embedding_dim": 32,
+        "hidden_dim": 64,
+        "num_layers": 2,
+        "vocab_size": 500
+    },
+    "training": {
+        "epochs": 800,
+        "learning_rate": 0.1,
+        "batch_size": 16,
+        "factor": 0.1,
+        "patience": 50,
+        "min_lr": 0.0001
+    }
+}

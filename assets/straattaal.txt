@@ -1,0 +1,983 @@
+<s>1080° snowboarding</s>
+<s>1942</s>
+<s>3d ultra minigolf</s>
+<s>3-d ultra pinball</s>
+<s>7th dragon</s>
+<s>the 7th guest</s>
+<s>a boy and his blob</s>
+<s>ace attorney</s>
+<s>ace combat</s>
+<s>actraiser</s>
+<s>adventure island</s>
+<s>adventures of lolo</s>
+<s>aero fighters</s>
+<s>aero the acro-bat</s>
+<s>after burner</s>
+<s>age of empires</s>
+<s>age of wonders</s>
+<s>airforce delta</s>
+<s>alan wake</s>
+<s>aleste</s>
+<s>alex kidd</s>
+<s>alien breed</s>
+<s>alien syndrome</s>
+<s>alone in the dark</s>
+<s>alpine racer</s>
+<s>altered beast</s>
+<s>alundra</s>
+<s>american mcgee's alice</s>
+<s>america's army</s>
+<s>amnesia</s>
+<s>amped</s>
+<s>angry birds</s>
+<s>animal crossing</s>
+<s>anno</s>
+<s>anomaly</s>
+<s>another century's episode</s>
+<s>another code</s>
+<s>ape escape</s>
+<s>arc the lad</s>
+<s>arkanoid</s>
+<s>arma</s>
+<s>armored core</s>
+<s>army men</s>
+<s>army of two</s>
+<s>art academy</s>
+<s>ar tonelico</s>
+<s>asheron's call</s>
+<s>asphalt</s>
+<s>assassin's creed</s>
+<s>assault heroes</s>
+<s>asteroids</s>
+<s>astro</s>
+<s>atelier</s>
+<s>atv offroad fury</s>
+<s>audiosurf</s>
+<s>avadon</s>
+<s>babylonian castle saga</s>
+<s>backyard sports</s>
+<s>baldur's gate</s>
+<s>bangai-o</s>
+<s>banjo-kazooie</s>
+<s>baraduke</s>
+<s>bard's tale</s>
+<s>baseball stars</s>
+<s>bases loaded</s>
+<s>batman</s>
+<s>batman: arkham</s>
+<s>battle arena toshinden</s>
+<s>battlefield</s>
+<s>battle gear</s>
+<s>battle isle</s>
+<s>battlestations</s>
+<s>battletoads</s>
+<s>battlezone</s>
+<s>bayonetta</s>
+<s>beat hazard</s>
+<s>beatmania</s>
+<s>bendy</s>
+<s>bejeweled</s>
+<s>big brain academy</s>
+<s>bionic commando</s>
+<s>bioshock</s>
+<s>bit.trip</s>
+<s>the black mirror</s>
+<s>black & white</s>
+<s>blaster master</s>
+<s>blazblue</s>
+<s>blazing angels</s>
+<s>blinx</s>
+<s>blitz: the league</s>
+<s>blood</s>
+<s>blood bowl</s>
+<s>bloodrayne</s>
+<s>bloody roar</s>
+<s>blue dragon</s>
+<s>bobby carrot</s>
+<s>boktai</s>
+<s>boku no natsuyasumi</s>
+<s>bomberman</s>
+<s>bomb jack</s>
+<s>bonk</s>
+<s>boom blox</s>
+<s>border break</s>
+<s>borderlands</s>
+<s>bosconian</s>
+<s>boulder dash</s>
+<s>boxboy!</s>
+<s>brain age</s>
+<s>bravely</s>
+<s>breakout</s>
+<s>breath of fire</s>
+<s>bridge constructor</s>
+<s>broken sword</s>
+<s>brothers in arms</s>
+<s>bubble bobble</s>
+<s>bubsy</s>
+<s>budget cuts</s>
+<s>burgertime</s>
+<s>burnout</s>
+<s>bushido blade</s>
+<s>bus simulator</s>
+<s>buster bros.</s>
+<s>bust a groove</s>
+<s>buzz!</s>
+<s>batman: arkham</s>
+<s>cabela's</s>
+<s>call of duty</s>
+<s>call of juarez</s>
+<s>candy crush</s>
+<s>cannon fodder</s>
+<s>capcom vs. snk</s>
+<s>carmageddon</s>
+<s>car mechanic simulator</s>
+<s>carmen sandiego</s>
+<s>carnival games</s>
+<s>castle shikigami</s>
+<s>castlevania</s>
+<s>centipede</s>
+<s>championship manager</s>
+<s>chaos rings</s>
+<s>chase h.q.</s>
+<s>chessmaster</s>
+<s>chibi-robo!</s>
+<s>chip's challenge</s>
+<s>chivalry</s>
+<s>choplifter</s>
+<s>chrono</s>
+<s>city connection</s>
+<s>civilization</s>
+<s>clayfighter</s>
+<s>clicker heroes</s>
+<s>clock tower</s>
+<s>clockwork knight</s>
+<s>close combat</s>
+<s>clubhouse games</s>
+<s>colin mcrae rally</s>
+<s>colony wars</s>
+<s>columns</s>
+<s>combat mission</s>
+<s>combat wings</s>
+<s>command & conquer</s>
+<s>commander keen</s>
+<s>commandos</s>
+<s>company of heroes</s>
+<s>condemned</s>
+<s>the conduit</s>
+<s>conker</s>
+<s>contra</s>
+<s>cooking mama</s>
+<s>cool boarders</s>
+<s>corpse party</s>
+<s>cotton</s>
+<s>counter-strike</s>
+<s>crackdown</s>
+<s>crash bandicoot</s>
+<s>crazy castle</s>
+<s>crazy chicken / moorhuhn</s>
+<s>crazy taxi</s>
+<s>creatures</s>
+<s>the crew</s>
+<s>crimson skies</s>
+<s>croc</s>
+<s>cruis'n</s>
+<s>crusader kings</s>
+<s>crush pinball</s>
+<s>crysis</s>
+<s>the culling</s>
+<s>custom robo</s>
+<s>cut the rope</s>
+<s>cyber sled</s>
+<s>dance central</s>
+<s>dance dance revolution</s>
+<s>danganronpa</s>
+<s>darius</s>
+<s>dark cloud</s>
+<s>the dark pictures anthology</s>
+<s>dark seed</s>
+<s>dark souls</s>
+<s>darkstalkers</s>
+<s>daytona usa</s>
+<s>dc comics</s>
+<s>de blob</s>
+<s>dead frontier</s>
+<s>dead island</s>
+<s>deadly premonition</s>
+<s>dead or alive</s>
+<s>dead rising</s>
+<s>dead space</s>
+<s>dead to rights</s>
+<s>deathsmiles</s>
+<s>deathspank</s>
+<s>deer hunter</s>
+<s>defense grid</s>
+<s>def jam</s>
+<s>defender</s>
+<s>delta force</s>
+<s>densha de go!</s>
+<s>descent</s>
+<s>desperados</s>
+<s>destroy all humans!</s>
+<s>deus ex</s>
+<s>devil children</s>
+<s>devil may cry</s>
+<s>diablo</s>
+<s>dies irae</s>
+<s>dig dug</s>
+<s>dino crisis</s>
+<s>disaster report</s>
+<s>disgaea</s>
+<s>dishonored</s>
+<s>disney infinity</s>
+<s>divinity</s>
+<s>dizzy</s>
+<s>donkey kong</s>
+<s>donkey kong country</s>
+<s>donpachi</s>
+<s>doom</s>
+<s>dota</s>
+<s>double dragon</s>
+<s>dragon age</s>
+<s>dragon ball</s>
+<s>dragon buster</s>
+<s>dragon force</s>
+<s>dragon quest</s>
+<s>dragon slayer</s>
+<s>dragon spirit</s>
+<s>dragon's lair</s>
+<s>drakengard</s>
+<s>drawn to life</s>
+<s>dream chronicles</s>
+<s>driver</s>
+<s>duke nukem</s>
+<s>dungeon defenders</s>
+<s>dungeon explorer</s>
+<s>dungeon keeper</s>
+<s>dungeon siege</s>
+<s>dying light</s>
+<s>dynasty warriors</s>
+<s>donkey kong country</s>
+<s>earth defense force</s>
+<s>earthworm jim</s>
+<s>ecco the dolphin</s>
+<s>el dorado gate</s>
+<s>elden ring</s>
+<s>the elder scrolls</s>
+<s>elevator action</s>
+<s>empire earth</s>
+<s>eternal champions</s>
+<s>etrian odyssey</s>
+<s>europa universalis</s>
+<s>everquest</s>
+<s>everybody's golf</s>
+<s>evil genius</s>
+<s>the evil within</s>
+<s>exceed</s>
+<s>excite</s>
+<s>exerion</s>
+<s>exit</s>
+<s>eyetoy</s>
+<s>f1 circus</s>
+<s>f-zero</s>
+<s>fable</s>
+<s>fallout</s>
+<s>famicom grand prix</s>
+<s>famicom tantei club</s>
+<s>family game night</s>
+<s>family party</s>
+<s>family stadium</s>
+<s>the fancy pants adventures</s>
+<s>fantasy zone</s>
+<s>far cry</s>
+<s>far east of eden</s>
+<s>farming simulator</s>
+<s>fatal frame</s>
+<s>fatal fury</s>
+<s>fat princess</s>
+<s>f.e.a.r.</s>
+<s>fieldrunners</s>
+<s>fifa</s>
+<s>fighting vipers</s>
+<s>final fantasy</s>
+<s>final lap</s>
+<s>fire emblem</s>
+<s>five nights at freddy's</s>
+<s>flatout</s>
+<s>flowers</s>
+<s>football manager</s>
+<s>forza</s>
+<s>fossil fighters</s>
+<s>frequency</s>
+<s>frogger</s>
+<s>front mission</s>
+<s>frostpunk</s>
+<s>game party</s>
+<s>g-police</s>
+<s>gabriel knight</s>
+<s>gal gun</s>
+<s>galaxian</s>
+<s>galaxy force</s>
+<s>game tengoku</s>
+<s>ganbare goemon</s>
+<s>gauntlet</s>
+<s>gears of war</s>
+<s>gekisha boy</s>
+<s>geneforge</s>
+<s>genpei tōma den</s>
+<s>geometry wars</s>
+<s>the getaway</s>
+<s>gex</s>
+<s>ghosts 'n goblins</s>
+<s>giana sisters</s>
+<s>giga wing</s>
+<s>glory of heracles</s>
+<s>god eater</s>
+<s>god of war</s>
+<s>golden axe</s>
+<s>golden sun</s>
+<s>golden tee golf</s>
+<s>the golf club</s>
+<s>golly! ghost!</s>
+<s>gothic</s>
+<s>gradius</s>
+<s>gran turismo</s>
+<s>grand theft auto</s>
+<s>grandia</s>
+<s>groove coaster</s>
+<s>ground control</s>
+<s>growlanser</s>
+<s>guacamelee!</s>
+<s>guardian heroes</s>
+<s>guild</s>
+<s>guild wars</s>
+<s>guilty gear</s>
+<s>guitar hero</s>
+<s>gunbird</s>
+<s>gundam</s>
+<s>gunpey</s>
+<s>gunslinger stratos</s>
+<s>gunstar heroes</s>
+<s>gunvolt</s>
+<s>.hack</s>
+<s>half-life</s>
+<s>halo</s>
+<s>hammerin' harry</s>
+<s>hang-on</s>
+<s>hard drivin'</s>
+<s>harry potter</s>
+<s>harvest moon</s>
+<s>hatsune miku: project diva</s>
+<s>hat trick hero</s>
+<s>hearts of iron</s>
+<s>hebereke</s>
+<s>heiankyo alien</s>
+<s>herzog</s>
+<s>hexic</s>
+<s>hidden & dangerous</s>
+<s>hitman</s>
+<s>homeworld</s>
+<s>horizon</s>
+<s>hotline miami</s>
+<s>the house of the dead</s>
+<s>hyperdimension neptunia</s>
+<s>hydlide</s>
+<s>hydro thunder</s>
+<s>icewind dale</s>
+<s>the idolmaster</s>
+<s>ikari warriors</s>
+<s>illusion</s>
+<s>image fight</s>
+<s>imagine</s>
+<s>inazuma eleven</s>
+<s>infamous</s>
+<s>infinity</s>
+<s>infinity blade</s>
+<s>injustice</s>
+<s>international superstar soccer</s>
+<s>invizimals</s>
+<s>iron soldier</s>
+<s>itadaki street</s>
+<s>jagged alliance</s>
+<s>jak and daxter</s>
+<s>jake hunter</s>
+<s>james bond</s>
+<s>jazz jackrabbit</s>
+<s>j.b. harold</s>
+<s>jetpac</s>
+<s>jet moto</s>
+<s>jet set radio</s>
+<s>joe & mac</s>
+<s>joe danger</s>
+<s>the journeyman project</s>
+<s>juiced</s>
+<s>jumping flash!</s>
+<s>just cause</s>
+<s>just dance</s>
+<s>kane & lynch</s>
+<s>kao the kangaroo</s>
+<s>katamari</s>
+<s>keyboardmania</s>
+<s>kid icarus</s>
+<s>kid niki</s>
+<s>kiki kaikai</s>
+<s>killer instinct</s>
+<s>killing floor</s>
+<s>killzone</s>
+<s>kinect sports</s>
+<s>kingdom hearts</s>
+<s>the king of fighters</s>
+<s>king's field</s>
+<s>king's quest</s>
+<s>kirby</s>
+<s>klonoa</s>
+<s>knack</s>
+<s>knights of the old temple</s>
+<s>kotoba no puzzle</s>
+<s>kunio-kun</s>
+<s>kururin</s>
+<s>kyle hyde</s>
+<s>lands of lore</s>
+<s>langrisser</s>
+<s>the last blade</s>
+<s>last ninja</s>
+<s>the last of us</s>
+<s>league of legends</s>
+<s>left 4 dead</s>
+<s>legacy of kain</s>
+<s>legend of legaia</s>
+<s>the legendary starfy</s>
+<s>the legend of heroestrails</s>
+<s>trails</s>
+<s>the legend of kage</s>
+<s>the legend of zelda</s>
+<s>lego</s>
+<s>lego ninjago</s>
+<s>leisure suit larry</s>
+<s>lemmings</s>
+<s>lethal enforcers</s>
+<s>life is strange</s>
+<s>lineage</s>
+<s>links</s>
+<s>lips</s>
+<s>littlebigplanet</s>
+<s>little nightmares</s>
+<s>lode runner</s>
+<s>the lord of the rings</s>
+<s>lost kingdoms</s>
+<s>lost planet</s>
+<s>the lost vikings</s>
+<s>lotus</s>
+<s>loveplus</s>
+<s>lucky's tale</s>
+<s>lufia</s>
+<s>luigi</s>
+<s>lumines</s>
+<s>lunar</s>
+<s>trails</s>
+<s>madden nfl</s>
+<s>mafia</s>
+<s>magical drop</s>
+<s>mana</s>
+<s>manhunt</s>
+<s>maniac mansion</s>
+<s>mappy</s>
+<s>mario</s>
+<s>dr. mario</s>
+<s>mario kart</s>
+<s>mario party</s>
+<s>mariosports</s>
+<s>mariorpg</s>
+<s>mario vs. donkey kong</s>
+<s>super mario</s>
+<s>marvel</s>
+<s>marvel vs. capcom</s>
+<s>mass effect</s>
+<s>master of orion</s>
+<s>math blaster</s>
+<s>matt hazard</s>
+<s>max payne</s>
+<s>mechassault</s>
+<s>mechwarrior</s>
+<s>medal of honor</s>
+<s>medievil</s>
+<s>mega man</s>
+<s>megami tensei</s>
+<s>mercenaries</s>
+<s>metal gear</s>
+<s>metal max</s>
+<s>metal slug</s>
+<s>metro</s>
+<s>metroid</s>
+<s>microsoft combat flight simulator</s>
+<s>microsoft flight simulator</s>
+<s>midnight club</s>
+<s>midtown madness</s>
+<s>might and magic</s>
+<s>milon's secret castle</s>
+<s>minecraft</s>
+<s>mirror's edge</s>
+<s>mlb 2k</s>
+<s>mlb: the show</s>
+<s>momoko 120%</s>
+<s>momotaro densetsu</s>
+<s>momotaro dentetsu</s>
+<s>monaco gp</s>
+<s>monkey island</s>
+<s>monster hunter</s>
+<s>monster rancher</s>
+<s>monster truck madness</s>
+<s>monument valley</s>
+<s>mortal kombat</s>
+<s>mother</s>
+<s>motocross madness</s>
+<s>motogp</s>
+<s>moto racer</s>
+<s>motorstorm</s>
+<s>mount & blade</s>
+<s>moving out</s>
+<s>mr. do!</s>
+<s>mr. driller</s>
+<s>mx vs. atv</s>
+<s>myst</s>
+<s>mystery dungeon</s>
+<s>myth</s>
+<s>dr. mario</s>
+<s>mario kart</s>
+<s>mario party</s>
+<s>mariosports</s>
+<s>mariorpg</s>
+<s>mario vs. donkey kong</s>
+<s>super mario</s>
+<s>namco anthology</s>
+<s>namco museum</s>
+<s>nancy drew</s>
+<s>naruto: ultimate ninja</s>
+<s>nascar</s>
+<s>navy field</s>
+<s>nba 2k</s>
+<s>nba live</s>
+<s>nba jam</s>
+<s>ncaa football</s>
+<s>nectaris / military madness</s>
+<s>need for speed</s>
+<s>nekopara</s>
+<s>nes remix</s>
+<s>neutopia</s>
+<s>neverwinter nights</s>
+<s>nfl 2k</s>
+<s>nhl(ea sports)</s>
+<s>nidhogg</s>
+<s>ni no kuni</s>
+<s>nier</s>
+<s>nights</s>
+<s>ninja gaiden</s>
+<s>ninja jajamaru-kun</s>
+<s>nintendogs</s>
+<s>nioh</s>
+<s>nobunaga's ambition</s>
+<s>no more heroes</s>
+<s>numan athletics</s>
+<s>oddworld</s>
+<s>ogre</s>
+<s>ōkami</s>
+<s>onechanbara</s>
+<s>one piece</s>
+<s>one must fall</s>
+<s>onimusha</s>
+<s>operation wolf</s>
+<s>orcs must die!</s>
+<s>the oregon trail</s>
+<s>osu! tatakae! ouendan</s>
+<s>otogi</s>
+<s>otomedius</s>
+<s>outlast</s>
+<s>out run</s>
+<s>overcooked</s>
+<s>pac-man</s>
+<s>pac-man world</s>
+<s>panzer dragoon</s>
+<s>papa louie</s>
+<s>parappa the rapper</s>
+<s>parasite eve</s>
+<s>parkan</s>
+<s>parodius</s>
+<s>patapon</s>
+<s>pathologic</s>
+<s>payday</s>
+<s>peggle</s>
+<s>pengo</s>
+<s>penumbra</s>
+<s>perfect dark</s>
+<s>persona</s>
+<s>petz</s>
+<s>pga tour</s>
+<s>phantasy star</s>
+<s>pikmin</s>
+<s>pillars of eternity</s>
+<s>pilotwings</s>
+<s>pinball fx</s>
+<s>pirate ship higemaru</s>
+<s>pitfall!</s>
+<s>pixeljunk</s>
+<s>planetside</s>
+<s>plants vs. zombies</s>
+<s>point blank</s>
+<s>pokémon</s>
+<s>pokémon pinball</s>
+<s>pokémon play it!</s>
+<s>pokémon puzzle</s>
+<s>pokémon ranger</s>
+<s>pokémon snap</s>
+<s>pokémon stadium</s>
+<s>poképark</s>
+<s>pole position</s>
+<s>the political machine</s>
+<s>pong</s>
+<s>populous</s>
+<s>portal</s>
+<s>postal</s>
+<s>power pros</s>
+<s>power stone</s>
+<s>prince of persia</s>
+<s>princess maker</s>
+<s>pro evolution soccer</s>
+<s>professor layton</s>
+<s>project gotham racing</s>
+<s>project x zone</s>
+<s>prototype</s>
+<s>psychonauts</s>
+<s>punch-out!!</s>
+<s>pushmo</s>
+<s>putt-putt</s>
+<s>puyo puyo</s>
+<s>puzzle bobble</s>
+<s>puzzle & dragons</s>
+<s>puzzle league</s>
+<s>puzzle quest</s>
+<s>pac-man world</s>
+<s>pokémon pinball</s>
+<s>pokémon play it!</s>
+<s>pokémon puzzle</s>
+<s>pokémon ranger</s>
+<s>pokémon snap</s>
+<s>pokémon stadium</s>
+<s>poképark</s>
+<s>q*bert</s>
+<s>qix</s>
+<s>quake</s>
+<s>quest for glory</s>
+<s>r-type</s>
+<s>raiden</s>
+<s>railroad tycoon</s>
+<s>rakugaki ōkoku</s>
+<s>rampage</s>
+<s>rally-x</s>
+<s>rhapsody</s>
+<s>rastan</s>
+<s>ratchet & clank</s>
+<s>rayforce</s>
+<s>rayman</s>
+<s>raving rabbids</s>
+<s>r.c. pro-am</s>
+<s>red dead</s>
+<s>red faction</s>
+<s>red steel</s>
+<s>remnant</s>
+<s>resident evil</s>
+<s>resistance</s>
+<s>retro game challenge</s>
+<s>return fire</s>
+<s>rhythm heaven</s>
+<s>rick dangerous</s>
+<s>ridge racer</s>
+<s>risen</s>
+<s>risk of rain</s>
+<s>road fighter</s>
+<s>road rash</s>
+<s>robopon</s>
+<s>robot</s>
+<s>robotron: 2084</s>
+<s>rock band</s>
+<s>rod land</s>
+<s>rogue legacy</s>
+<s>rollercoaster tycoon</s>
+<s>rolling thunder</s>
+<s>romance of the three kingdoms</s>
+<s>rpg maker</s>
+<s>rugby league</s>
+<s>rumble roses</s>
+<s>rune factory</s>
+<s>runescape</s>
+<s>rush</s>
+<s>rush'n attack</s>
+<s>rygar</s>
+<s>raving rabbids</s>
+<s>sabreman</s>
+<s>saga</s>
+<s>saints row</s>
+<s>sakura wars</s>
+<s>salamander</s>
+<s>sam & max</s>
+<s>samurai shodown</s>
+<s>samurai warriors</s>
+<s>sanctum</s>
+<s>scene it?</s>
+<s>schoolgirl strikers</s>
+<s>science adventure</s>
+<s>scramble</s>
+<s>scribblenauts</s>
+<s>sea battle</s>
+<s>seaman</s>
+<s>sega ages</s>
+<s>sega bass fishing</s>
+<s>sega rally</s>
+<s>sengoku basara</s>
+<s>senran kagura</s>
+<s>serious sam</s>
+<s>the settlers</s>
+<s>shadowgate</s>
+<s>shadow man</s>
+<s>shadow of the beast</s>
+<s>shadow warrior</s>
+<s>shank</s>
+<s>shantae</s>
+<s>shenmue</s>
+<s>sherlock holmes</s>
+<s>shining</s>
+<s>shinobi</s>
+<s>shōnen jump</s>
+<s>shoot away</s>
+<s>silent hill</s>
+<s>silent scope</s>
+<s>silpheed</s>
+<s>simcity</s>
+<s>simple</s>
+<s>the sims</s>
+<s>sin and punishment</s>
+<s>singstar</s>
+<s>skate</s>
+<s>skylanders</s>
+<s>sly cooper</s>
+<s>snake rattle 'n' roll</s>
+<s>sniper elite</s>
+<s>sniper: ghost warrior</s>
+<s>snowboard kids</s>
+<s>socom</s>
+<s>soldier of fortune</s>
+<s>sonic blast man</s>
+<s>sonic the hedgehog</s>
+<s>soulcalibur</s>
+<s>south park</s>
+<s>space channel 5</s>
+<s>space empires</s>
+<s>space harrier</s>
+<s>space invaders</s>
+<s>space quest</s>
+<s>speedball</s>
+<s>spellforce</s>
+<s>spider-man</s>
+<s>splashdown</s>
+<s>splatoon</s>
+<s>splatterhouse</s>
+<s>'splosion man</s>
+<s>spongebob squarepants</s>
+<s>spy hunter</s>
+<s>spyro</s>
+<s>ssx</s>
+<s>s.t.a.l.k.e.r.</s>
+<s>star control</s>
+<s>star force</s>
+<s>star fox</s>
+<s>star luster</s>
+<s>star ocean</s>
+<s>star raiders</s>
+<s>star wars</s>
+<s>star wars: battlefront</s>
+<s>starcraft</s>
+<s>star soldier</s>
+<s>startropics</s>
+<s>state of decay</s>
+<s>steamworld</s>
+<s>steel battalion</s>
+<s>steel division</s>
+<s>steel gunner</s>
+<s>story of seasons</s>
+<s>street fighter</s>
+<s>streets of rage</s>
+<s>strider</s>
+<s>strikers 1945</s>
+<s>stronghold</s>
+<s>subnautica</s>
+<s>suikoden</s>
+<s>summon night</s>
+<s>super mega baseball</s>
+<s>super monkey ball</s>
+<s>super robot wars</s>
+<s>super smash bros.</s>
+<s>supreme commander</s>
+<s>surgeon simulator</s>
+<s>sutte hakkun</s>
+<s>swordquest</s>
+<s>syberia</s>
+<s>syndicate</s>
+<s>syphon filter</s>
+<s>system shock</s>
+<s>star wars: battlefront</s>
+<s>taiko no tatsujin</s>
+<s>taito memories</s>
+<s>tak</s>
+<s>tales</s>
+<s>tales from space</s>
+<s>tank battalion</s>
+<s>team fortress</s>
+<s>tecmo bowl</s>
+<s>teenage mutant ninja turtles</s>
+<s>tekken</s>
+<s>tempest</s>
+<s>tenchu</s>
+<s>terra cresta</s>
+<s>test drive</s>
+<s>tetris</s>
+<s>thief</s>
+<s>this is football</s>
+<s>thunder ceptor</s>
+<s>thunder cross</s>
+<s>thunder force</s>
+<s>tiger heli</s>
+<s>time crisis</s>
+<s>time pilot</s>
+<s>timesplitters</s>
+<s>titanfall</s>
+<s>tobal</s>
+<s>toca</s>
+<s>toejam & earl</s>
+<s>tokimeki memorial</s>
+<s>tom clancy's</s>
+<s>tom clancy's the division</s>
+<s>tom clancy's ghost recon</s>
+<s>tom clancy's h.a.w.x</s>
+<s>tom clancy's rainbow six</s>
+<s>tom clancy's splinter cell</s>
+<s>tomb raider</s>
+<s>tomodachi collection</s>
+<s>tony hawk's</s>
+<s>torchlight</s>
+<s>total annihilation</s>
+<s>total war</s>
+<s>touch! generations</s>
+<s>touhou project</s>
+<s>toukiden</s>
+<s>track & field</s>
+<s>train simulator</s>
+<s>transformers</s>
+<s>trauma center</s>
+<s>trials</s>
+<s>tribes</s>
+<s>trine</s>
+<s>tropico</s>
+<s>truck simulator</s>
+<s>true crime</s>
+<s>truxton</s>
+<s>turok</s>
+<s>turrican</s>
+<s>twilight syndrome</s>
+<s>twinbee</s>
+<s>twisted metal</s>
+<s>two worlds</s>
+<s>ty the tasmanian tiger</s>
+<s>tom clancy's the division</s>
+<s>tom clancy's ghost recon</s>
+<s>tom clancy's h.a.w.x</s>
+<s>tom clancy's rainbow six</s>
+<s>tom clancy's splinter cell</s>
+<s>ultima</s>
+<s>uncharted</s>
+<s>unravel</s>
+<s>unreal</s>
+<s>uridium</s>
+<s>valis</s>
+<s>valkyria chronicles</s>
+<s>valkyrie</s>
+<s>valkyrie profile</s>
+<s>vampire: the masquerade</s>
+<s>vandal hearts</s>
+<s>vanguard</s>
+<s>vectorman</s>
+<s>vib-ribbon</s>
+<s>viewtiful joe</s>
+<s>vigilante 8</s>
+<s>violence fight</s>
+<s>virtua cop</s>
+<s>virtua fighter</s>
+<s>virtua striker</s>
+<s>virtua tennis</s>
+<s>virtual on</s>
+<s>viva piñata</s>
+<s>v-rally</s>
+<s>wagan land</s>
+<s>the walking dead</s>
+<s>wangan midnight</s>
+<s>warcraft</s>
+<s>warhammer 40,000</s>
+<s>warhammer fantasy</s>
+<s>wario</s>
+<s>warioware</s>
+<s>wario land</s>
+<s>warlords</s>
+<s>wars</s>
+<s>wasteland</s>
+<s>watch dogs</s>
+<s>wave race</s>
+<s>white knight chronicles</s>
+<s>wii</s>
+<s>wild arms</s>
+<s>wing commander</s>
+<s>winning run</s>
+<s>wipeout</s>
+<s>the witcher</s>
+<s>wizardry</s>
+<s>wizards & warriors</s>
+<s>wolf fang</s>
+<s>wolfenstein</s>
+<s>wonder boy</s>
+<s>wonder momo</s>
+<s>wonder project</s>
+<s>world heroes</s>
+<s>world stadium</s>
+<s>worms</s>
+<s>wrecking crew</s>
+<s>wwe 2k</s>
+<s>warioware</s>
+<s>wario land</s>
+<s>x(egosoft)</s>
+<s>x(nintendo)</s>
+<s>xanadu</s>
+<s>x-com</s>
+<s>xeno</s>
+<s>xenogears</s>
+<s>xenosaga</s>
+<s>xenoblade chronicles</s>
+<s>xevious</s>
+<s>xenogears</s>
+<s>xenosaga</s>
+<s>xenoblade chronicles</s>
+<s>yakuza</s>
+<s>yie ar kung-fu</s>
+<s>yo-kai watch</s>
+<s>yooka-laylee</s>
+<s>yoshi</s>
+<s>you don't know jack</s>
+<s>ys</s>
+<s>yu-gi-oh!</s>
+<s>zanac</s>
+<s>zaxxon</s>
+<s>zero escape</s>
+<s>zill o'll</s>
+<s>zombie tycoon</s>
+<s>zone of the enders</s>
+<s>zool</s>
+<s>zoombinis</s>
+<s>zoo tycoon</s>
+<s>zork</s>
+<s>zuma</s>
+<s>zumba fitness</s>

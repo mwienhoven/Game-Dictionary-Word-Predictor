@@ -10,7 +10,7 @@ from loguru import logger
 from pydantic import BaseModel
 from slanggen import models
 from tokenizers import Tokenizer
-from utils import sample_n
+from .utils import sample_n
 
 logger.add("logs/app.log", rotation="5 MB")
 

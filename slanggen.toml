@@ -2,13 +2,13 @@
 assets_dir = "assets"
 artefacts_dir = "artefacts"
 filename = "straattaal.txt"
-url = "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms"
+url = "https://en.wikipedia.org/wiki/List_of_video_game_franchises"
 
 [model]
 embedding_dim = 32
 hidden_dim = 64
 num_layers = 2
-vocab_size = 100
+vocab_size = 500
 
 [training]
 epochs = 800

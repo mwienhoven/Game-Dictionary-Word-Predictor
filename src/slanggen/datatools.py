@@ -20,47 +20,43 @@ def get_data(filename: Path, url: str) -> list[str]:
     }
     response = requests.get(url, headers=headers, timeout=10)
     response.raise_for_status()
+    
     # Parse the HTML content using BeautifulSoup
     soup = BeautifulSoup(response.content, "html.parser")
 
-    # Find all the rows
-    rows = soup.find_all("tr", style=True)
+    # Find main content div
+    content_div = soup.find("div", {"id": "mw-content-text"})
+    terms = []
 
-    # Extract the street language words from the second <td> element in each row
-    street_language_words: list[str] = []
-    if rows:
-        street_language_words = [row.find_all("td")[1].get_text(strip=True) for row in rows]
-    else:
-        # Fallback: some glossaries (e.g. Wikipedia) use definition lists with <dt> terms
-        dt_terms = []
-        for dt in soup.find_all("dt"):
-            term = dt.get_text(" ", strip=True)
-            # Filter: no empty, no footnotes starting with [, and not too long
-            if term and not term.startswith("[") and len(term) < 200:
-                dt_terms.append(term)
-        street_language_words = dt_terms
+    # Loop over all <ul> in the content div
+    for ul in content_div.find_all("ul"):
+        for li in ul.find_all("li"):
+            text = li.get_text(strip=True)
+            terms.append(text)
 
-    # Process each word: remove text inside parentheses, remove "/g", split on commas and pipes
-    logger.info(f"Processing {len(street_language_words)} street language words")
-    processed_words = []
-    for word in street_language_words:
-        # Remove text inside parentheses
-        word = re.sub(r"\(.*?\)", "", word)
-        # Remove "/g"
-        word = word.replace("/g", "")
-        # Split on commas and pipes
-        split_words = re.split(r",|\||/", word)
-        # Strip and add each split word to the processed list
-        processed_words.extend([w.strip().lower() for w in split_words if w.strip()])
+    # Clean terms: remove footnotes and headers
+    ignore = ["Top", "0–9"] + list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+    clean_terms = []
+    for t in terms:
+        clean = t.split("[")[0].strip()  # remove footnotes
+        if clean and clean not in ignore and len(clean) > 1:
+            clean_terms.append(clean)
 
-    # add start and end tokens to each word / sentence
-    processed_words = ["<s>" + word + "</s>" for word in processed_words if word]
+    # Determine start and end index (specific games)
+    start_idx = next((i for i, t in enumerate(clean_terms) if t == "1080° Snowboarding"), 0)
+    end_idx = next((i for i, t in reversed(list(enumerate(clean_terms))) if t == "Zumba Fitness"), len(clean_terms) - 1)
+
+    game_terms = clean_terms[start_idx:end_idx + 1]
+
+    # Process each word: lowercase and wrap with <s> tags
+    processed_words = [f"<s>{t.lower()}</s>" for t in game_terms]
 
     # Save the processed words to a file
-    logger.info(f"Saving processed words to {filename}")
+    logger.info(f"Saving {len(processed_words)} processed words to {filename}")
     with open(filename, "w", encoding="utf-8") as file:
         for word in processed_words:
             file.write(word + "\n")
+
     return processed_words
 
 
