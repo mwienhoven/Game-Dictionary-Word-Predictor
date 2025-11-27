@@ -1,0 +1,124 @@
+/* General body with dark gaming background */
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #1a1a1a, #0d0d0d);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Container with neon glow effect */
+.container {
+    background: rgba(10, 10, 10, 0.9);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 40px #00ffff, 0 0 80px #ff00ff;
+    text-align: center;
+    max-width: 700px;
+    width: 90%;
+}
+
+/* Titles with neon flicker animation */
+.neon-title, .neon-subtitle {
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+    margin-bottom: 20px;
+}
+
+.neon-subtitle {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* Controls styling */
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.controls input {
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #00ffff;
+    background: #111;
+    color: #00ffff;
+}
+
+.controls input[type="range"] {
+    width: 150px;
+}
+
+/* Glow button with click animation */
+.glow-btn {
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: #ff00ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+    transition: transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+.glow-btn:hover {
+    box-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff;
+    transform: scale(1.05);
+}
+
+.glow-btn.clicked {
+    transform: scale(0.95);
+    box-shadow: 0 0 40px #00ffff, 0 0 60px #00ffff;
+}
+
+/* Words container with flex wrap */
+.words-container, .starred-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Individual word item */
+.word-item {
+    background: #111;
+    color: #00ffff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 5px #00ffff;
+}
+
+.word-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #00ffff, 0 0 30px #ff00ff;
+}
+
+/* Starred words */
+.word-item.starred {
+    background: #ff00ff;
+    color: #fff;
+}
+
+/* Glow effect for words */
+.glow-word {
+    animation: pulse 1.5s infinite alternate;
+}
+
+@keyframes pulse {
+    0% { text-shadow: 0 0 5px #00ffff; }
+    50% { text-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff; }
+    100% { text-shadow: 0 0 5px #00ffff; }
+}

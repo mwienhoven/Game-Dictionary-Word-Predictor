@@ -3,88 +3,159 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Street Language Generator</title>
+    <title>Game Word Predictor</title>
     <link rel="stylesheet" href="static/styles.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Orbitron", sans-serif;
+        background: radial-gradient(circle at 50% 50%, #0f0f1f, #000);
+        color: #fff;
+        overflow: hidden;
+      }
+
+      .container {
+        position: relative;
+        width: 90%;
+        max-width: 900px;
+        margin: 50px auto;
+        padding: 30px;
+        background: rgba(10, 10, 30, 0.85);
+        border-radius: 15px;
+        box-shadow: 0 0 30px #00ffea, 0 0 60px #ff005a;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 3rem;
+        color: #0ff;
+        text-shadow: 0 0 10px #0ff, 0 0 20px #ff0;
+        margin-bottom: 20px;
+        animation: neonPulse 1.5s infinite alternate;
+      }
+
+      @keyframes neonPulse {
+        0% { text-shadow: 0 0 10px #0ff, 0 0 20px #ff0; }
+        100% { text-shadow: 0 0 20px #0ff, 0 0 40px #ff0; }
+      }
+
+      .controls input, .controls button {
+        padding: 10px;
+        margin: 10px;
+        font-size: 16px;
+        border-radius: 10px;
+        border: none;
+      }
+
+      .controls button {
+        background: linear-gradient(45deg, #ff005a, #00ffea);
+        color: #000;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        font-weight: bold;
+      }
+
+      .controls button:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px #ff005a, 0 0 40px #00ffea;
+      }
+
+      .names-container, .favorites-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+      .name-item {
+        margin: 5px;
+        padding: 10px 20px;
+        border-radius: 25px;
+        background: linear-gradient(135deg, #ff005a, #00ffea);
+        color: #000;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .name-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0 15px #ff005a, 0 0 30px #00ffea;
+      }
+
+      .favorite {
+        background: #ffe600;
+        color: #000;
+        font-weight: bold;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
-      <h1>Street Language Generator</h1>
+      <h1>Game Word Predictor</h1>
       <div class="controls">
-        <label for="num_words">Number of words:</label>
-        <input
-          type="number"
-          id="num_words"
-          name="num_words"
-          value="10"
-          min="1"
-        />
-
-        <label for="temperature">Temperature:</label>
-        <input
-          type="range"
-          id="temperature"
-          name="temperature"
-          min="0.1"
-          max="2.0"
-          value="1.0"
-          step="0.1"
-          oninput="updateTempLabel(this.value)"
-        />
-        <span id="temp-value">1.0</span>
-
+        <label for="num_names">Number of Names:</label>
+        <input type="number" id="num_names" value="5" min="1" max="20"/>
+        <label for="creativity">Creativity:</label>
+        <input type="range" id="creativity" min="0.1" max="2.0" value="1.0" step="0.1"/>
+        <span id="creativity-value">1.0</span>
         <button id="generate-btn">Generate Words</button>
       </div>
-      <div class="words-container" id="words-container"></div>
-      <h2>Starred Words</h2>
-      <div class="starred-container" id="starred-container"></div>
+
+      <div class="names-container" id="names-container"></div>
+
+      <h2>Favorite Names</h2>
+      <div class="favorites-container" id="favorites-container"></div>
     </div>
 
     <script>
-      let starredWords = [];
+      const creativityLabel = document.getElementById('creativity-value');
+      const creativityInput = document.getElementById('creativity');
 
-      function updateTempLabel(value) {
-        document.getElementById("temp-value").textContent = value;
-      }
+      creativityInput.addEventListener('input', () => {
+        creativityLabel.textContent = creativityInput.value;
+      });
 
-      function updateStarredContainer() {
-        const starredContainer = document.getElementById("starred-container");
-        starredContainer.innerHTML = "";
-        starredWords.forEach((word) => {
-          const wordElement = document.createElement("div");
-          wordElement.className = "word-item starred";
-          wordElement.textContent = word;
-          starredContainer.appendChild(wordElement);
+      let favoriteNames = [];
+
+      function updateFavorites() {
+        const favContainer = document.getElementById('favorites-container');
+        favContainer.innerHTML = '';
+        favoriteNames.forEach(name => {
+          const div = document.createElement('div');
+          div.className = 'name-item favorite';
+          div.textContent = name;
+          favContainer.appendChild(div);
         });
       }
 
-      document
-        .getElementById("generate-btn")
-        .addEventListener("click", function () {
-          const numWords = document.getElementById("num_words").value;
-          const temperature = document.getElementById("temperature").value;
-          fetch(`/generate?num_words=${numWords}&temperature=${temperature}`)
-            .then((response) => response.json())
-            .then((data) => {
-              const wordsContainer = document.getElementById("words-container");
-              wordsContainer.innerHTML = "";
-              data.forEach((word) => {
-                const wordElement = document.createElement("div");
-                wordElement.className = "word-item";
-                wordElement.textContent = word;
-                wordElement.addEventListener("click", function () {
-                  wordElement.classList.toggle("starred");
-                  if (wordElement.classList.contains("starred")) {
-                    starredWords.push(word);
-                  } else {
-                    starredWords = starredWords.filter((w) => w !== word);
-                  }
-                  updateStarredContainer();
-                });
-                wordsContainer.appendChild(wordElement);
+      document.getElementById('generate-btn').addEventListener('click', () => {
+        const numNames = document.getElementById('num_names').value;
+        const creativity = document.getElementById('creativity').value;
+
+        fetch(`/generate?num_names=${numNames}&creativity=${creativity}`)
+          .then(response => response.json())
+          .then(data => {
+            const container = document.getElementById('names-container');
+            container.innerHTML = '';
+            data.forEach(name => {
+              const div = document.createElement('div');
+              div.className = 'name-item';
+              div.textContent = name;
+              div.addEventListener('click', () => {
+                div.classList.toggle('favorite');
+                if (div.classList.contains('favorite')) {
+                  favoriteNames.push(name);
+                } else {
+                  favoriteNames = favoriteNames.filter(n => n !== name);
+                }
+                updateFavorites();
               });
-            })
-            .catch((error) => console.error("Error:", error));
-        });
+              container.appendChild(div);
+            });
+          })
+          .catch(error => console.error('Error fetching names:', error));
+      });
     </script>
   </body>
 </html>
