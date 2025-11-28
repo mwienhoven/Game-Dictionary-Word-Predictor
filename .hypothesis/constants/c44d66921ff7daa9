@@ -1,0 +1,4 @@
+# file: /home/mwienhoven/Game-Dictionary-Word-Predictor/backend/app.py
+# hypothesis_version: 6.148.3
+
+[1.0, 500, 8000, '../artefacts', '/', '/generate', '/health', '/starred', '/static', '/unstarred', '0.0.0.0', '5 MB', '__main__', 'artefacts', 'config.json', 'frontend', 'frontend/index.html', 'logs/app.log', 'model', 'model.pth', 'ok', 'r', 'serving index.html', 'static', 'status', 'tokenizer', 'tokenizer.json']

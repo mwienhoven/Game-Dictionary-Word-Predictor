@@ -71,18 +71,23 @@ async def lifespan(app: FastAPI):
     logger.success("Application shutdown complete")
 
 
-app = FastAPI()
+app = FastAPI(lifespan=lifespan)
 
 # Serve static files
 app.mount("/static", StaticFiles(directory=str(FRONTEND_FOLDER)), name="static")
 
-model, tokenizer = load_model()
 starred_words = []
 
 
 def new_words(n: int, temperature: float):
+    # Use model and tokenizer from model_state (set during lifespan)
+    model = model_state.get("model")
+    tokenizer = model_state.get("tokenizer")
+    if not model or not tokenizer:
+        raise RuntimeError("Model or tokenizer not loaded")
+    
     output_words = sample_n(
-        n=n,
+        n,
         model=model,
         tokenizer=tokenizer,
         max_length=20,
@@ -96,9 +101,9 @@ class Word(BaseModel):
 
 
 @app.get("/generate")
-async def generate_words(num_words: int = 10, temperature: float = 1.0):
+async def generate_words(num_names: int = 10, creativity: float = 1.0):
     try:
-        words = new_words(num_words, temperature)
+        words = new_words(num_names, creativity)
         return words
     except Exception as e:
         logger.exception(f"Error generating words: {e}")
