@@ -68,6 +68,13 @@ To rebuild and restart the application, run the following command:
 make compose-rebuild
 ```
 
+To test the application, run the following command:
+```bash
+make test
+```
+
+This will test all the written tests in the tests folder (including coverage).
+
 # Tutorial of Raoul: slanggen
 
 ## train the model
