@@ -32,6 +32,7 @@ COPY src/slanggen ./src/slanggen
 COPY backend ./backend
 COPY frontend ./frontend
 COPY artefacts ./artefacts
+COPY tests ./tests
 
 # Install the project (slanggen) from pyproject.toml via uv pip (system install, no-cache)
 # Install backend requirements via uv pip (system install, no-cache)
@@ -39,9 +40,6 @@ COPY artefacts ./artefacts
 RUN /root/.local/bin/uv pip install --system --no-cache . \
     && /root/.local/bin/uv pip install --system --no-cache -r backend/requirements.txt \
     && /root/.local/bin/uv pip install --system --no-cache --index-url https://download.pytorch.org/whl/cpu torch==2.9.1
-
-# Remove uv to reduce image size
-RUN rm -rf /root/.local/bin/uv /root/.local/lib/python3.11/site-packages/uv*
 
 # Expose port 8000 for the application
 EXPOSE 8000

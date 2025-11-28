@@ -28,6 +28,10 @@ clean:
 	-docker builder prune -f 2>/dev/null || true
 	-docker image prune -f 2>/dev/null || true
 
+# Test the Docker image
+test: build
+	docker run --rm $(IMAGE_NAME) pytest --cov -v
+
 # Docker Compose targets
 compose-up:
 	docker compose -f $(COMPOSE_FILE) up -d --build
