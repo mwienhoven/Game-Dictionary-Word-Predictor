@@ -1,5 +1,5 @@
 # Game-Dictionary-Word-Predictor
-Word predictor based on the games dictionary that can be found [here](https://en.wikipedia.org/wiki/Glossary_of_video_game_terms)
+Word predictor based on the games dictionary that can be found [here](https://en.wikipedia.org/wiki/List_of_video_game_franchises)
 
 ## Run the model locally
 First sync your virtual environment using the command below:
