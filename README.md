@@ -27,6 +27,47 @@ http://145.38.188.207/
 
 This will show the Game Word Predictor.
 
+## Docker
+The Docker image can be build via:
+```bash
+make build
+```
+
+The Docker image can be ran via:
+```bash
+make run
+```
+
+The ```make run``` command will open up the application at:
+```bash
+http://localhost:8000
+```
+
+The Docker image can be cleaned via:
+```bash
+make clean
+```
+
+## Docker Compose
+To deploy the application, run the command:
+```bash
+make compose-up
+```
+
+This will build the image and start the service.
+
+To stop the application, run the command:
+```bash
+make compose-down
+```
+
+This will shut down the running containers.
+
+To rebuild and restart the application, run the following command:
+```bash
+make compose-rebuild
+```
+
 # Tutorial of Raoul: slanggen
 
 ## train the model
